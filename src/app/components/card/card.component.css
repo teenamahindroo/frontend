@@ -1,0 +1,43 @@
+.card {
+    width: 200px;
+    height: 300px;
+    max-height: 500px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 20px;
+    background: gainsboro;
+    color: rgb(29, 24, 24);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 40%);
+  }
+  .btn {
+    padding: 10px;
+    border-radius: 20px;
+    background: #1f75c4;
+    margin: 10px auto;
+    margin-bottom: 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+  .product-image {
+    width: calc(100% + 16px);
+    margin-left: -8px;
+    margin-top: -8px;
+    border-bottom: 2px solid black;
+  }
+  .info {
+    font-size: 12px;
+  }
+  .card-info {
+    flex: 1;
+  }
+  

@@ -1,0 +1,22 @@
+
+  <div class="card">
+    <img
+      class="product-image"
+      [ngStyle]="{borderBottomColor:product.color}"
+      [src]="product.imgUrl"
+    />
+    <div class="card-info">
+      <h3>
+        {{product.brandName}} {{product.productName}}
+      </h3>
+
+      <p>{{product.price}}</p>
+
+      <div class="info">
+        <p>{{product.description}}</p>
+      </div>
+    </div>
+
+    <button class="btn" routerLink="/product/170">View More</button>
+  </div>
+
